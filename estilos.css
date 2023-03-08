@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    background: #E6D6FF;
+    background: -webkit-radial-gradient(center, #E6D6FF, #6930C3);
+    background: -moz-radial-gradient(center, #E6D6FF, #6930C3);
+    background: radial-gradient(ellipse at center, #E6D6FF, #6930C3);
+  }
+  
+  .title-label {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    font-size: 24px;
+    color: #e6eeeb;
+    background-color: #995bba;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  small{
+    font-style: italic;
+    font-size: 12px;
+  }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 100vh;
+}
+
+.quotes {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  text-align: center;
+  height: 450px;
+  padding: 0 50px;
+  color: gray;
+  border-radius: 10px;
+  background-color: azure;
+  border: 10px solid #290a8e;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.9);
+  overflow: auto;
+}
+
+.quotes p {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.quotes h3 {
+  font-size: 2rem;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+}
+
+.quote-btn {
+  padding-top: 20px;
+}
+
+.quote-btn button{
+    background: rgba(85, 8, 102, 0.426);
+    position: fixed;
+    left: 50%; /* Move the button to the center horizontally */
+    bottom: 0; /* Move the button to the bottom of the page */
+    transform: translate(-50%, 0); /* Center the button horizontally */
+    bottom: 10%;
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px) {
+  
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+}
